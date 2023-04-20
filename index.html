@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS fundamentals</title>
+    <link rel="stylesheet" href="challenge-1.css" />
+ 
+  </head>
+  <body>
+    <main>
+      
+      <h1 class="title" id="title">BMI Index Comparer</h1>
+      <div class="input-card input-card--one">
+        <h2>Person 1</h2>
+        <label for="" class="input-card__name-label">Name<input type="text" id="" pattern="[A-Za-z]+" class="input-card__name input-card__name--one" placeholder="Josh"></label>
+      
+        <label for="" class="input-card__mass-label">Mass (kg)<input type="number"  pattern="[0-9]+"id="input-card__mass--one" max="256" min="0"class="input-card__mass" placeholder="69"></label>
+      
+        <label for="" class="input-card__height-label">Height (m)<input type="number" id="input-card__height--one" step=".01" max="3" min="0"  pattern="[0-9]+\.[0-9]{2}" class="input-card__height" placeholder="1.58"></label>
+      
+      </div>
+      <div class="input-card input-card--two">
+        <h2>Person 2 </h2>
+      
+        <label for="" class="input-card__name-label">Name<input type="text" id="" pattern="[A-Za-z]+" class="input-card__name input-card__name--two" placeholder="Mark"></label>
+      
+        <label for="" class="input-card__mass-label">Mass (kg)<input type="number"  pattern="[0-9]+"id="input-card__mass--two" max="256" min="0" class="input-card__mass" placeholder="69"></label>
+      
+        <label for="" class="input-card__height-label">Height (m)<input type="number" id="input-card__height--two" pattern="[0-9]+\.[0-9]{2}" max="3" min="0" step=".01"class="input-card__height" placeholder="1.58"></label>
+      
+      </div>
+      
+      <button id="bmi-calculate">Calculate</button>
+      <div class="bmi-result bmi-result--one"></div>
+      <div class="bmi-result bmi-result--two"></div>
+      <div class="bmi-comparison"></div>
+      <script src="challenge-1.js"></script>
+    </main>
+  </body>
+  </html>
+  
+  
+  <!-- - Make it tell you if you underweight or not. 
+  - Accept only numbers -->
+
+
